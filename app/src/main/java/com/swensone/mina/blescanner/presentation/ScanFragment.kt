@@ -59,8 +59,8 @@ class ScanFragment : Fragment() {
         val itemAdapter = ItemAdapter<AdvertisedDeviceItem>()
         val fastAdapter = FastAdapter.with(itemAdapter)
 
-        binding.recyclerView2.adapter = fastAdapter
-        binding.recyclerView2.layoutManager = LinearLayoutManager(binding.root.context)
+        binding.recyclerView.adapter = fastAdapter
+        binding.recyclerView.layoutManager = LinearLayoutManager(binding.root.context)
 
         viewLifecycleOwner.lifecycleScope.launch {
             viewLifecycleOwner.lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED) {
