@@ -29,6 +29,7 @@ class BleViewModel @Inject constructor(
             is ScanStatus.Running -> stopScan()
             is ScanStatus.Idle -> startScan()
             else -> {
+
             }
         }
     }
