@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BleScanner</string>
+    <string name="scannerName">Scanner screen</string>
 </resources>
